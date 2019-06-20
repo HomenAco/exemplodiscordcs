@@ -9,7 +9,7 @@ class ping extends Command{
         this.ping = client
     }
 
-    async startCommand(message, agrs){
+    async startCommand(message, args){
         message.channel.send('pong!')
     }
 }
