@@ -6,7 +6,7 @@ class ping extends Command{
             command: 'ping',
             description: 'lantencia da api'
         })
-        this.ping = client
+        this.client = client
     }
 
     async startCommand(message, args){
